@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/main.js" type="text/javaScript"></script>
     <title>Project Quiz</title>
 </head>
 <body>
@@ -28,61 +29,61 @@
 
             <div>
                 <p>1. Is JavaScript a programming language?</p>
-                <p class="choice"><input type="radio" name="quiz1" value="Yes"> A. Yes</p>
-                <p><input type="radio" name="quiz1" value="No"> B. No</p>
+                <p class="choice"><input type="radio" name="quiz1" value="A"> A. Yes</p>
+                <p><input type="radio" name="quiz1" value="B"> B. No</p>
             </div>
 
             <div>
                 <p>2. What is the name for the latest version of JavaScript</p>
-                <p><input type="radio" name="quiz2" value="Js"> A. Js</p>
-                <p><input type="radio" name="quiz2" value="ES6"> B. ES6</p>
-                <p><input type="radio" name="quiz2" value="typescript"> C. typescript</p>
-                <p><input type="radio" name="quiz2" value="Java"> D. Java</p>
+                <p><input type="radio" name="quiz2" value="A"> A. Js</p>
+                <p><input type="radio" name="quiz2" value="B"> B. ES6</p>
+                <p><input type="radio" name="quiz2" value="C"> C. typescript</p>
+                <p><input type="radio" name="quiz2" value="D"> D. Java</p>
             </div>
 
             <div>
                 <p>3. Can JavaScript be used together with html to develop websites?</p>
-                <p><input type="radio" name="quiz3" value="Yes"> A. Yes</p>
-                <p><input type="radio" name="quiz3" value="Can't tell"> B. Can't tell</p>
-                <p><input type="radio" name="quiz3" value="No"> C. No</p>
+                <p><input type="radio" name="quiz3" value="A"> A. Yes</p>
+                <p><input type="radio" name="quiz3" value="B"> B. Can't tell</p>
+                <p><input type="radio" name="quiz3" value="C"> C. No</p>
             </div>
 
             <div>
                 <p>4. Where in the html code is javascript preferrably linked?</p>
-                <p><input type="radio" name="quiz4" value="Title"> A. Title</p>
-                <p><input type="radio" name="quiz4" value="End of body"> B. End of body</p>
-                <p><input type="radio" name="quiz4" value="Footer"> C. Footer</p>
-                <p><input type="radio" name="quiz4" value="None of the above"> D. None of the above</p>
+                <p><input type="radio" name="quiz4" value="A"> A. Title</p>
+                <p><input type="radio" name="quiz4" value="B"> B. End of body</p>
+                <p><input type="radio" name="quiz4" value="C"> C. Footer</p>
+                <p><input type="radio" name="quiz4" value="D"> D. None of the above</p>
             </div>
 
             <div>
                 <p>5. Which tag element is used to link Javascript with html code?</p>
-                <p><input type="radio" name="quiz5" value="p"> A. p</p>
-                <p><input type="radio" name="quiz5" value="link"> B. link</p>
-                <p><input type="radio" name="quiz5" value="head"> C. head</p>
-                <p><input type="radio" name="quiz5" value="script"> D. script</p>
+                <p><input type="radio" name="quiz5" value="A"> A. p</p>
+                <p><input type="radio" name="quiz5" value="B"> B. link</p>
+                <p><input type="radio" name="quiz5" value="C"> C. head</p>
+                <p><input type="radio" name="quiz5" value="D"> D. script</p>
             </div>
 
             <div>
                 <p>6. Is JavaScript an object-oriented language?</p>
-                <p><input type="radio" name="quiz6" value="Yes"> A. Yes</p>
-                <p><input type="radio" name="quiz6" value="No"> C. No</p>
+                <p><input type="radio" name="quiz6" value="A"> A. Yes</p>
+                <p><input type="radio" name="quiz6" value="B"> B. No</p>
             </div>
 
             <div>
                 <p>7. Does Javascript run on the browser?</p>
-                <p><input type="radio" name="quiz7" value="Yes"> A. Yes</p>
-                <p><input type="radio" name="quiz7" value="No"> C. No</p>
+                <p><input type="radio" name="quiz7" value="A"> A. Yes</p>
+                <p><input type="radio" name="quiz7" value="B"> B. No</p>
             </div>
 
             <div>
                 <p>8. Can JavaScript be used in the backend of applications?</p>
-                <p><input type="radio" name="quiz8" value="Yes"> A. Yes</p>
-                <p><input type="radio" name="quiz8" value="No"> C. No</p>
+                <p><input type="radio" name="quiz8" value="A"> A. No</p>
+                <p><input type="radio" name="quiz8" value="B"> B. Yes</p>
             </div>
 
-        
-            
+           <button id="submission" onclick="evaluate()">Submit Test</button>
+           <input type="text" name="marks" id="marks">
  
         </form>
 
