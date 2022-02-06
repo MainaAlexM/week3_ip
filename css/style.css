@@ -1,0 +1,23 @@
+body{
+    background-color: beige;
+    margin: 0rem;
+}
+.header{
+    background-color: #4af1088e;
+    text-align: center;
+    height: 4rem;
+    padding: 0.2rem 0rem;
+    width: 0 auto;
+}
+.top p{
+    color: blueviolet;
+    font-size: x-large;
+    margin: 1rem;
+}
+form{
+    margin: 0 auto;
+    padding: 1rem 2rem;
+}
+form p input{
+    margin: 0.2rem 0rem 0.5rem 1.5rem
+}
