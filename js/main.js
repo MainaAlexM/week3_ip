@@ -1,30 +1,28 @@
 function evaluate(){
-    var m=0;
-    
-    var mk1=document.quiz.quiz1.value;
-    var mk2=document.quiz.quiz2.value;
-    var mk3=document.quiz.quiz3.value;
-    var mk4=document.quiz.quiz4.value;
-    var mk5=document.quiz.quiz5.value;
-    var mk6=document.quiz.quiz6.value;
-    var mk7=document.quiz.quiz7.value;
-    var mk8=document.quiz.quiz8.value;
+    var points=0;
+    var message="Your Test is Submitted. Click Okay to view your score.";
 
-    if (mk1=="A") {m++} 
-    if (mk2=="B") {m++}
-    if (mk3=="A") {m++}
-    if (mk4=="B") {m++}
-    if (mk5=="D") {m++}
-    if (mk6=="A") {m++}
-    if (mk7=="A") {m++}
-    if (mk8=="B") {m++}
+    var correct1=document.quiz.quiz1.value;
+    var correct2=document.quiz.quiz2.value;
+    var correct3=document.quiz.quiz3.value;
+    var correct4=document.quiz.quiz4.value;
+    var correct5=document.quiz.quiz5.value;
+    var correct6=document.quiz.quiz6.value;
+    var correct7=document.quiz.quiz7.value;
+    var correct8=document.quiz.quiz8.value;
 
-    document.write(m);
-        m = document.getElementByName("marks").value;
+    if (correct1=="Yes") {points+=5}; 
+    if (correct2=="B") {points+=5};
+    if (correct3=="A") {points+=5};
+    if (correct4=="B") {points+=5};
+    if (correct5=="D") {points+=5};
+    if (correct6=="A") {points+=5};
+    if (correct7=="A") {points+=5};
+    if (correct8=="B") {points+=5};
 
+    console.log("Done");
+    // test.style.display="none"
 
-    console.log(m);
+    // if(points>=18) {
+    //     alert(message)
 }
-
-document.getElementById("submission").onclick = evaluate()
-
