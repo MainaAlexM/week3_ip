@@ -2,25 +2,28 @@ body{
     margin: 0rem;
     height: 100%;
 }
+
 .header{
     text-align: center;
     height: 2rem;
     width: 0 auto;
 }
+
 h1{
     padding: 0rem 0.8rem 0.4rem 0rem;
 }
+
 .top{
     background-color: #90db738e;
-    padding: 0.2rem 0 0 0;
-
-    
+    padding: 0.2rem 0 0 0;    
 }
+
 .top p{
     color: blueviolet;
     font-size: x-large;
     margin: 1rem;
 }
+
 form{
     height: 30rem;
     margin: 0 auto;
@@ -29,9 +32,11 @@ form{
     overflow: scroll;
     background-color: beige;
 }
+
 form p input{
     margin: 0.2rem 0rem 0.5rem 1.5rem
 }
+
 button{
     height: 2.0rem;
     font-size: large;
@@ -39,13 +44,13 @@ button{
     background-color: blueviolet;
     border: thin grey;
 }
+
 .view{
-    /* height: 2.0rem; */
     width: 15rem;
     border: medium slategrey;
     margin: 0 auto;
-    
 }
+
 footer{
     height: 4rem;
     background-color: whitesmoke;
