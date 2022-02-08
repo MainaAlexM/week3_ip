@@ -11,7 +11,7 @@ function evaluate(){
     var correct7=document.quiz.quiz7.value;
     var correct8=document.quiz.quiz8.value;
 
-    if (correct1=="Yes") {points+=5}; 
+    if (correct1=="A") {points+=5}; 
     if (correct2=="B") {points+=5};
     if (correct3=="A") {points+=5};
     if (correct4=="B") {points+=5};
@@ -20,11 +20,14 @@ function evaluate(){
     if (correct7=="A") {points+=5};
     if (correct8=="B") {points+=5};
 
-    console.log("Done");
+    document.write(points);
+
+    // document.getElementById("results").innerHTML = points;
+    
+}   
+
+//  // console.log("Done");
     // test.style.display="none"
 
     // if(points>=18) {
     //     alert(message)
-}   
-
-document.getElementById("results").innerHTML = $(points);
