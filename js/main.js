@@ -1,6 +1,6 @@
 var points=0;
 function evaluation(){
-
+    defaultMessage = "Your score is ";
     points = 0;
     var correct1=document.quiz.quiz1.value;
     var correct2=document.quiz.quiz2.value;
@@ -21,7 +21,7 @@ function evaluation(){
     if (correct8=="B") {points+=5}
 
 
-    document.getElementById("results").innerHTML = points;
+    document.getElementById("results").innerHTML = defaultMessage + points;
 
     grading();
 

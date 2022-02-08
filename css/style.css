@@ -5,11 +5,14 @@ body{
     overflow: scroll;
 }
 .header{
-    background-color: #4af1088e;
     text-align: center;
     height: 4rem;
     padding: 0.2rem 0rem;
     width: 0 auto;
+}
+.top{
+    background-color: #90db738e;
+    padding: 0.2rem;
 }
 .top p{
     color: blueviolet;
@@ -36,12 +39,15 @@ button{
     background-color: blueviolet;
     border: thin grey;
 }
-#marks{
+#view{
     height: 2.0rem;
     width: 15rem;
+    border: medium slategrey;
+    
 }
 footer{
     height: 4rem;
     background-color: whitesmoke;
-    justify-content: space-around;
+    text-align: center;
+    padding-top: 0.5rem;
 }
