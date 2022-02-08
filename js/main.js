@@ -20,18 +20,16 @@ function evaluation(){
     if (correct7=="A") {points+=5}
     if (correct8=="B") {points+=5}
 
-    // var message = ("Your Score is " + points);
+
 
     // document.write(points);
 
     document.getElementById("results").innerHTML = points;
-    
+
+
+
+    grading();
+
+
 }   
 
-// function grading() {
-//     if (points>=32) {"Excellent! " + message}
-//     if (points>50) {"Congratulations. Your Performance was Fair! " + message}
-//     if (points=50) {"You have Passed! " + message}
-//     if (points<50) {"You have Failed! " + message + " You need to retake the test."}
-
-//     // document.write();
