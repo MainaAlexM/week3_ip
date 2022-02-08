@@ -35,7 +35,7 @@ function evaluation(){
 //Grading function generates comments based on points scored overall.
 function grading() {
     if (points>=32) {message = "Your Performance was Excellent!"}
-    if (points>20) {message = "Congratulations. Your Performance was Fair!"}
+    if (32>points>=21) {message = "Congratulations. Your Performance was Fair!"}
     if (points==20) {message = "You have Passed! "}
     if (points<=19) {message = "You have Failed! " + " You need to retake the test."}
 
