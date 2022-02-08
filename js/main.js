@@ -25,4 +25,6 @@ function evaluate(){
 
     // if(points>=18) {
     //     alert(message)
-}
+}   
+
+document.getElementById("results").innerHTML = $(points);
