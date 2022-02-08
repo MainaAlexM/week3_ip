@@ -19,24 +19,14 @@
       <p>  Answer all the questions and press submit button to get your results. <br> </p>
 
    </div>
-    <!-- <div class="quiz">
+    -->
 
-    </div>
-
-    <div class="finish">
-        <button> Submit the  Quiz</button>
-    </div>
-
-    <div class="outcomes">
-
-    </div>mes -->
-
-        <form name="quiz" id="test">
+        <form name="quiz" id="quiz">
 
             <div>
                 <p>1. Is JavaScript a programming language? (5 Marks)</p>
-                <p class="choice"><input type="radio" name="quiz1" value="A"> A. Yes</p>
-                <p class="choice"><input type="radio" name="quiz1" value="B"> B. No</p>
+                <p class="choice"><input type="radio" name="quiz1" value="Yes"> A. Yes</p>
+                <p class="choice"><input type="radio" name="quiz1" value="No"> B. No</p>
             </div>
 
             <div>
@@ -88,12 +78,13 @@
                 <p><input type="radio" name="quiz8" value="B"> B. Yes</p>
             </div>
 
-           <button id="submission" type="submit" onclick="evaluate()">Submit Test</button>
+           <button id="submission" type="button" onclick="evaluation()">Submit Test</button>
  
         </form>
 
         <div>
             <p id="results"></p>
+            <p id="commentary"></p>
         </div>
 
 </body>

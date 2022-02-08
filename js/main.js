@@ -1,7 +1,7 @@
-function evaluate(){
-    var points=0;
-    var message="Your Test is Submitted. Click Okay to view your score.";
+var points=0;
+function evaluation(){
 
+    points = 0;
     var correct1=document.quiz.quiz1.value;
     var correct2=document.quiz.quiz2.value;
     var correct3=document.quiz.quiz3.value;
@@ -11,23 +11,27 @@ function evaluate(){
     var correct7=document.quiz.quiz7.value;
     var correct8=document.quiz.quiz8.value;
 
-    if (correct1=="A") {points+=5}; 
-    if (correct2=="B") {points+=5};
-    if (correct3=="A") {points+=5};
-    if (correct4=="B") {points+=5};
-    if (correct5=="D") {points+=5};
-    if (correct6=="A") {points+=5};
-    if (correct7=="A") {points+=5};
-    if (correct8=="B") {points+=5};
+    if (correct1=="Yes") {points+=5} 
+    if (correct2=="B") {points+=5}
+    if (correct3=="A") {points+=5}
+    if (correct4=="B") {points+=5}
+    if (correct5=="D") {points+=5}
+    if (correct6=="A") {points+=5}
+    if (correct7=="A") {points+=5}
+    if (correct8=="B") {points+=5}
 
-    document.write(points);
+    // var message = ("Your Score is " + points);
 
-    // document.getElementById("results").innerHTML = points;
+    // document.write(points);
+
+    document.getElementById("results").innerHTML = points;
     
 }   
 
-//  // console.log("Done");
-    // test.style.display="none"
+// function grading() {
+//     if (points>=32) {"Excellent! " + message}
+//     if (points>50) {"Congratulations. Your Performance was Fair! " + message}
+//     if (points=50) {"You have Passed! " + message}
+//     if (points<50) {"You have Failed! " + message + " You need to retake the test."}
 
-    // if(points>=18) {
-    //     alert(message)
+//     // document.write();
