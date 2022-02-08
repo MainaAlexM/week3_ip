@@ -1,8 +1,6 @@
 body{
-    
     margin: 0rem;
     height: 300px;
-    overflow: scroll;
 }
 .header{
     text-align: center;
@@ -13,6 +11,8 @@ body{
 .top{
     background-color: #90db738e;
     padding: 0.2rem;
+
+    
 }
 .top p{
     color: blueviolet;
@@ -22,7 +22,7 @@ body{
 form{
     margin: 0 auto;
     padding: 1rem 2rem;
-    max-height: 30rem;
+    max-height: 40rem;
     overflow: scroll;
     background-color: beige;
 }
@@ -39,10 +39,11 @@ button{
     background-color: blueviolet;
     border: thin grey;
 }
-#view{
-    height: 2.0rem;
+.view{
+    /* height: 2.0rem; */
     width: 15rem;
     border: medium slategrey;
+    margin: 0 auto;
     
 }
 footer{

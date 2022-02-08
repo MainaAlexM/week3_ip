@@ -25,6 +25,8 @@ function evaluation(){
 
     grading();
 
+    document.quiz.reset();
+
 }
 
 function grading() {
