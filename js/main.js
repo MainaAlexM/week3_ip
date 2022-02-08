@@ -21,15 +21,17 @@ function evaluation(){
     if (correct8=="B") {points+=5}
 
 
-
-    // document.write(points);
-
     document.getElementById("results").innerHTML = points;
-
-
 
     grading();
 
+}
 
-}   
+function grading() {
+    if (points>=32) {message = "Excellent! "}
+    if (points>20) {message = "Congratulations. Your Performance was Fair! "}
+    if (points==20) {message = "You have Passed! "}
+    if (points<=19) {message = "You have Failed! " + " You need to retake the test."}
+
+}
 
